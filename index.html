@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="./assets/uploads/logos/Leviticalogo.png" type="image/x-icon">
+	<link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+	<link href="/Content/bootstrap-icons/bootstrap-icons.min.css" rel="stylesheet">
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="stylesheet" href="./assets/css/overview.css">
+
+
+	<title>Levitica hrms</title>
+</head>
+
+<body>
+
+	<!-- header-START	 -->
+	<div class="head">
+		<div class="container-fluid ">
+			<div class="row d-flex ">
+
+				<div class="col-lg-3 col-md-3 col-sm-12  head-brand  d-flex   align-items-center ">
+
+
+					<div id="btn-sidebar">
+						<i id="btn-menu" class="bx bx-menu  "></i>
+
+					</div>
+
+
+					<div class="logo   d-md-block d-lg-block">
+						<img src="./assets/uploads/logos/lv-hr-logo.png" alt="" style="width: 100%;height: auto;">
+					</div>
+				</div>
+
+				<div class="head-icon-box col-lg-6 col-md-6 d-md-flex d-lg-flex   align-items-center ">
+					<form class="d-flex" style="width:100% ;">
+						<input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+						<!-- <button class="btn btn-outline-light" type="submit">Search</button> -->
+					</form>
+
+					<i id="btn-bell" class="bx bx-bell " onclick="location.href='#'"></i>
+					<i id="btn-link" class="bx bx-link " onclick="location.href='#'"></i>
+
+				</div>
+
+				<div
+					class="col-lg-3 col-md-2 col-sm-12 d-md-flex d-lg-flex  d-none  justify-content-center  align-items-center ">
+					<img src="./assets/uploads/logos/main.jpg" class="rounded-circle me-2 p-1" alt="user-img"
+						style="width: 50px;">
+					<div class="text-white d-md-none d-lg-block">
+						<p style="padding-top: 10px;">Levitica Technologies</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- header-END -->
+
+
+
+
+	<!-- SIDEBAR-START -->
+	<div id="sidebar" class="sidebar">
+
+		<ul class="pt-3 ">
+
+			<li class="h-side-drop">
+
+
+				<i><img src="./assets/uploads/icons/dashboard.svg" alt="" style="width: 20px;"></i>
+
+
+				<div class="text " id="sidedrop-head">
+					<a href="#">
+
+						<span class="d-flex justify-content-between float-end " style="width: 88%;">
+							<span>Dashboard</span>
+							<i class='bx bxs-chevron-down ' style="display: none;"></i>
+							<i class='bx bxs-chevron-right'></i>
+
+						</span>
+					</a>
+				</div>
+				<div class="text sidedrop-list">
+					<ul>
+						<li><a href="#">Overview</a></li>
+						<li><a href="#">Attendance</a></li>
+						<li><a href="#">Flight Risk</a></li>
+					</ul>
+
+				</div>
+
+
+			</li>
+
+			<li class="h-side-drop-org">
+
+
+				<i><img src="./assets/uploads/icons/networking.svg" alt="" style="width: 20px;"></i>
+
+				<div class="text ">
+					<a href="#">
+
+						<span class="d-flex justify-content-between float-end" style="width: 88%;">
+							<span>Org Chart</span>
+
+
+						</span>
+					</a>
+				</div>
+
+
+
+			</li>
+
+			<li class="h-side-drop-allemp">
+
+
+				<i><img src="./assets/uploads/icons/users-svgrepo-com.svg" alt="" style="width: 20px;"></i>
+
+				<div class="text ">
+					<a href="#">
+
+						<span class="d-flex justify-content-between float-end" style="width: 88%;">
+							<span>All Employees</span>
+
+
+						</span>
+					</a>
+				</div>
+
+
+
+			</li>
+
+			<li class="h-side-drop-onboard">
+
+
+				<i><img src="./assets/uploads/icons/user-plus-alt-1-svgrepo-com.svg" alt="" style="width: 20px;"></i>
+
+				<div class="text " id="sidedrop-head">
+					<a href="#">
+
+						<span class="d-flex justify-content-between float-end" style="width: 88%;">
+							<span>Onboarding</span>
+							<i class='bx bxs-chevron-down ' style="display: none;"></i>
+							<i class='bx bxs-chevron-right'></i>
+
+						</span>
+					</a>
+				</div>
+				<div class="text sidedrop-list">
+					<ul>
+						<li><a href="#">Add Employee</a></li>
+						<li><a href="#">Approve Additions</a></li>
+						<li><a href="#">Onboarding Forms</a></li>
+					</ul>
+
+				</div>
+
+
+			</li>
+
+			<li class="h-side-drop-sep">
+
+				<!-- <i class='bx bxs-user-minus '></i> -->
+				<i><img src="./assets/uploads/icons/user-minus-alt-1-svgrepo-com.svg" alt="" style="width: 20px;"></i>
+
+				<div class="text " id="sidedrop-head">
+					<a href="#">
+
+						<span class="d-flex justify-content-between float-end" style="width: 88%;">
+							<span>Separation</span>
+							<i class='bx bxs-chevron-down ' style="display: none;"></i>
+							<i class='bx bxs-chevron-right'></i>
+
+						</span>
+					</a>
+				</div>
+				<div class="text sidedrop-list">
+					<ul>
+						<li><a href="#">Initiate Exit</a></li>
+						<li><a href="#">Pending Exits</a></li>
+						<li><a href="#">Ex Employees</a></li>
+					</ul>
+
+				</div>
+
+
+			</li>
+
+		</ul>
+		<hr style="color: white;">
+		<ul>
+
+			<li class="h-side-drop-atten">
+
+				<!-- <i class='bx bxs-dashboard '></i> -->
+				<i><img src="./assets/uploads/icons/attendance-svgrepo-com.svg" alt="" style="width: 20px;"></i>
+
+				<div class="text " id="sidedrop-head">
+					<a href="#">
+
+						<span class="d-flex justify-content-between float-end" style="width: 88%;">
+							<span>Attendance</span>
+							<i class='bx bxs-chevron-down ' style="display: none;"></i>
+							<i class='bx bxs-chevron-right'></i>
+
+						</span>
+					</a>
+				</div>
+				<div class="text sidedrop-list">
+					<ul>
+						<li><a href="#">Daily Attendance</a></li>
+						<li><a href="#">Daily Time Punches</a></li>
+						<li><a href="#">Monthly Attendance</a></li>
+						<li><a href="#">Leave Correction</a></li>
+						<li><a href="#">Shift Roster</a></li>
+						<li><a href="#">Travel Data</a></li>
+
+
+
+					</ul>
+
+				</div>
+
+
+			</li>
+
+			<li class="h-side-drop-data">
+
+				<!-- <i class='bx bxs-dashboard '></i> -->
+				<i><img src="./assets/uploads/icons/edit-3-svgrepo-com.svg" alt="" style="width: 20px;"></i>
+
+				<div class="text " id="sidedrop-head">
+					<a href="#">
+
+						<span class="d-flex justify-content-between float-end" style="width: 88%;">
+							<span>Data Capture</span>
+							<i class='bx bxs-chevron-down' style="display: none;"></i>
+							<i class='bx bxs-chevron-right'></i>
+
+						</span>
+					</a>
+				</div>
+				<div class="text sidedrop-list">
+					<ul>
+						<li><a href="#">salary-Variable</a></li>
+						<li><a href="#">Salary-Units</a></li>
+						<li><a href="#">Deduction-Variable</a></li>
+						<li><a href="#">Deduction-Units</a></li>
+						<li><a href="#">Deduction-TDS</a></li>
+						<li><a href="#">Extra Days</a></li>
+						<li><a href="#">Extra Hours</a></li>
+						<li><a href="#">Loans</a></li>
+						<li><a href="#">IT Declarations</a></li>
+
+
+
+					</ul>
+
+				</div>
+
+
+			</li>
+
+			<li class="h-side-drop-bulk">
+
+				<!-- <i class='bx bxs-spreadsheet '></i> -->
+				<i><img src="./assets/uploads/icons/spreadsheet-svgrepo-com.svg" alt="" style="width: 20px;"></i>
+
+				<div class="text " id="sidedrop-head">
+					<a href="#">
+
+						<span class="d-flex justify-content-between float-end" style="width: 88%;">
+							<span>Bulk Updates</span>
+							<i class='bx bxs-chevron-down ' style="display: none;"></i>
+							<i class='bx bxs-chevron-right'></i>
+
+						</span>
+					</a>
+				</div>
+				<div class="text sidedrop-list">
+					<ul>
+						<li><a href="#">Employee Records</a></li>
+						<li><a href="#">Employee Options</a></li>
+						<li><a href="#">Banks Details</a></li>
+						<li><a href="#">Salary Details</a></li>
+						<li><a href="#">Work Profile</a></li>
+						<li><a href="#">Biometric Codes</a></li>
+						<li><a href="#">Deactive Records</a></li>
+
+					</ul>
+
+				</div>
+
+
+			</li>
+
+			<li class="h-side-drop-hrman">
+
+				<!-- <i class='bx bxs-briefcase-alt-2 '></i> -->
+				<i><img src="./assets/uploads/icons/briefcase-alt-4-svgrepo-com.svg" alt="" style="width: 20px;"></i>
+
+				<div class="text " id="sidedrop-head">
+					<a href="#">
+
+						<span class="d-flex justify-content-between float-end" style="width: 88%;">
+							<span>HR Management</span>
+							<i class='bx bxs-chevron-down ' style="display: none;"></i>
+							<i class='bx bxs-chevron-right'></i>
+
+						</span>
+					</a>
+				</div>
+				<div class="text sidedrop-list">
+					<ul>
+						<li><a href="#">Greetings</a></li>
+						<li><a href="#">Notifications</a></li>
+						<li><a href="#">Policies</a></li>
+						<li><a href="#">Letters</a></li>
+
+					</ul>
+
+				</div>
+
+
+			</li>
+
+			<li class="h-side-drop-req">
+
+				<!-- <i class='bx bxs-tachometer '></i> -->
+				<i><img src="./assets/uploads/icons/arrows-horizontal-svgrepo-com.svg" alt="" style="width: 20px;"></i>
+
+				<div class="text " id="sidedrop-head">
+					<a href="#">
+
+						<span class="d-flex justify-content-between float-end" style="width: 88%;">
+							<span>Requests</span>
+							<i class='bx bxs-chevron-down ' style="display: none;"></i>
+							<i class='bx bxs-chevron-right'></i>
+
+						</span>
+					</a>
+				</div>
+				<div class="text sidedrop-list">
+					<ul>
+						<li><a href="#">Missed Punch</a></li>
+						<li><a href="#">Time Relaxation</a></li>
+						<li><a href="#">Comp Off</a></li>
+						<li><a href="#">Leave</a></li>
+						<li><a href="#">Claim</a></li>
+						<li><a href="#">Travel Punch</a></li>
+						<li><a href="#">Helpdesk</a></li>
+						<li><a href="#">Workflows</a></li>
+
+					</ul>
+
+				</div>
+
+
+			</li>
+
+			<li class="h-side-drop-payrol">
+
+				<!-- <i class='bx bxs-edit '></i> -->
+				<i class="hide-drop"><img src="./assets/uploads/icons/settings-svgrepo-com.svg" alt=""
+						style="width: 20px;"></i>
+
+				<div class="text " id="sidedrop-head">
+					<a href="#">
+
+						<span class="d-flex justify-content-between float-end" style="width: 88%;">
+							<span>Payroll</span>
+							<i class='bx bxs-chevron-down ' style="display: none;"></i>
+							<i class='bx bxs-chevron-right'></i>
+
+						</span>
+					</a>
+				</div>
+
+				<div class="text sidedrop-list">
+					<ul>
+						<li><a href="#">Periods </a></li>
+						<li><a href="#">Leave Encashment </a></li>
+						<li><a href="#">statutory Bonus </a></li>
+						<li><a href="#">Gratuity </a></li>
+						<li><a href="#">Recalculation </a></li>
+						<li><a href="#">Run Payroll </a></li>
+						<li><a href="#">Hold Salary </a></li>
+
+					</ul>
+
+				</div>
+
+
+			</li>
+
+			<li class="sidedrop-list-onlyactive">
+
+				<!-- <i class='bx bxs-edit '></i> -->
+				<i class="hide-drop"><img src="./assets/uploads/icons/payments-icon.svg" alt=""
+						style="width: 20px;"></i>
+
+				<div class="text " id="sidedrop-head">
+					<a href="#">
+
+						<span class="d-flex justify-content-between float-end" style="width: 88%;">
+							<span>Payments</span>
+						</span>
+
+					</a>
+				</div>
+
+			</li>
+
+			<li class="sidedrop-list-onlyactive">
+
+				<!-- <i class='bx bxs-edit '></i> -->
+				<i class="hide-drop"><img src="./assets/uploads/icons/reports-icon.svg" alt="" style="width: 20px;"></i>
+
+				<div class="text " id="sidedrop-head">
+					<a href="#">
+
+						<span class="d-flex justify-content-between float-end" style="width: 88%;">
+							<span>Reports</span>
+						</span>
+
+					</a>
+				</div>
+
+			</li>
+
+			<li class="sidedrop-list-onlyactive">
+
+				<!-- <i class='bx bxs-edit '></i> -->
+				<i class="hide-drop"><img src="./assets/uploads/icons/setup-icon.svg" alt="" style="width: 20px;"></i>
+
+				<div class="text " id="sidedrop-head">
+					<a href="#">
+
+						<span class="d-flex justify-content-between float-end" style="width: 88%;">
+							<span>Setup</span>
+						</span>
+
+					</a>
+				</div>
+
+			</li>
+
+		</ul>
+		<hr style="color: white;" class="sidedrop-list-onlyactive">
+		<ul>
+			<li class="sidedrop-list-onlyactive">
+
+				<!-- <i class='bx bxs-edit '></i> -->
+				<i class="hide-drop"><img src="./assets/uploads/icons/project-icon.svg" alt="" style="width: 20px;"></i>
+
+				<div class="text " id="sidedrop-head">
+					<a href="#">
+
+						<span class="d-flex justify-content-between float-end" style="width: 88%;">
+							<span>Projects</span>
+						</span>
+
+					</a>
+				</div>
+
+			</li>
+
+			<li class="sidedrop-list-onlyactive">
+
+				<!-- <i class='bx bxs-edit '></i> -->
+				<i class="hide-drop"><img src="./assets/uploads/icons/performance-icon.svg" alt=""
+						style="width: 20px;"></i>
+
+				<div class="text " id="sidedrop-head">
+					<a href="#">
+
+						<span class="d-flex justify-content-between float-end" style="width: 88%;">
+							<span>Performance</span>
+						</span>
+
+					</a>
+				</div>
+
+			</li>
+
+			<li class="sidedrop-list-onlyactive">
+
+				<!-- <i class='bx bxs-edit '></i> -->
+				<i class="hide-drop"><img src="./assets/uploads/icons/activity-log icon.svg" alt=""
+						style="width: 20px;"></i>
+
+				<div class="text " id="sidedrop-head">
+					<a href="#">
+
+						<span class="d-flex justify-content-between float-end" style="width: 88%;">
+							<span>Activity logs</span>
+						</span>
+
+					</a>
+				</div>
+
+			</li>
+
+		</ul>
+
+
+	</div>
+
+	<!-- hover side drop list -->
+
+	<div class=" sidedrop-list-hide  h-dashboard   h-side-drop">
+		<ul>
+			<li>DASHBOARD</li>
+
+
+		</ul>
+
+	</div>
+
+	<div class=" sidedrop-list-hide  h-org   h-side-drop">
+		<ul>
+			<li>Org Chart</li>
+
+		</ul>
+
+	</div>
+
+	<div class=" sidedrop-list-hide  h-allemp   h-side-drop">
+		<ul>
+			<li>All Employees</li>
+
+		</ul>
+
+	</div>
+
+	<div class=" sidedrop-list-hide  h-onboard   h-side-drop">
+		<ul>
+			<li>On Boarding</li>
+
+		</ul>
+
+	</div>
+
+	<div class=" sidedrop-list-hide  h-sep   h-side-drop">
+		<ul>
+			<li>Separation</li>
+
+		</ul>
+
+	</div>
+
+	<div class=" sidedrop-list-hide  h-atten   h-side-drop">
+		<ul>
+			<li>Attendance</li>
+
+		</ul>
+
+	</div>
+
+	<div class=" sidedrop-list-hide  h-data   h-side-drop">
+		<ul>
+			<li>Data Capture</li>
+
+		</ul>
+
+	</div>
+
+	<div class=" sidedrop-list-hide  h-bulk   h-side-drop">
+		<ul>
+			<li>Bulk Updates</li>
+
+		</ul>
+
+	</div>
+
+	<div class=" sidedrop-list-hide  h-hrman   h-side-drop">
+		<ul>
+			<li>HR Management</li>
+
+		</ul>
+
+	</div>
+
+	<div class=" sidedrop-list-hide  h-req   h-side-drop">
+		<ul>
+			<li>Requests</li>
+
+		</ul>
+
+	</div>
+
+	<div class=" sidedrop-list-hide  h-payrol   h-side-drop">
+		<ul>
+			<li>Payroll</li>
+
+		</ul>
+
+	</div>
+
+	<!-- SIDEBAR-END -->
+
+
+
+	<!-- MAIN-CONTENT-START -->
+	<div class="main-content " id="main-content"
+		style="background-image: url(./assets/uploads/logos/Leviticalogo.png);">
+		<!-- <div class="container-fluid inmain-content" style="background-color: #dcecfcad;height: 100%;"> -->
+			<div class="container-fluid inmain-content" style="background-color: #eff6fcdb;height: 100%;">
+			<!----------------- design starts here ----------------------------->
+
+
+
+
+			<div class="d-inline">
+				<p class="pt-1" style="font-size: 0.8rem;">Dashboards <span style="color: #000000b1;">/ Overview</span>
+				</p>
+			</div>
+
+			<div class="row mb-4">
+				<div class="d-flex justify-content-start">
+					<div class="mr-3">
+						<img src="./assets/uploads/icons/home-icon.svg" alt="home-icon" style="width: 30px;" class="me-2">
+					</div>
+					<div class="">
+						<h6 class="mb-0 fw-bold">Overview</h6>
+						<p class="mb-0" style="font-size: 14px;">Find the most relevant information about your business here.</p>
+					</div>
+				</div>
+			</div>
+
+
+
+			<div class="row pt-5 overview-timeline-cards">
+
+				<div class="col-lg-4 d-flex justify-content-center mb-3">
+					<div class="card " style="width: 100%;">
+						<div class="">
+							<h6 class="pt-3 ps-2">Employee Status</h6>
+						</div>
+						<div class="card-body">
+
+
+							<div class="progress">
+								<div class="progress-bar bg-success" role="progressbar" style="width: 60%;"
+									aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">70%</div>
+							</div>
+							<p class="card-text mt-3 " style="font-size: 12px;">26 of 28 active(17 inactive)</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 d-flex justify-content-center mb-3">
+					<div class="card " style="width: 100%;">
+						<div class="">
+							<h6 class="pt-3 ps-2">Active Mobile Users</h6>
+						</div>
+						<div class="card-body">
+
+
+							<div class="progress">
+								<div class="progress-bar bg-success" role="progressbar" style="width: 60%;"
+									aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">70%</div>
+							</div>
+							<p class="card-text mt-3 " style="font-size: 12px;">26 of 28 active(Last 30 days)</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 d-flex justify-content-center mb-3">
+					<div class="card " style="width: 100%;">
+						<div class="">
+							<h6 class="pt-3 ps-2">Subscription</h6>
+						</div>
+						<div class="card-body">
+
+
+							<div class="progress">
+								<div class="progress-bar bg-success" role="progressbar" style="width: 60%;"
+									aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">70%</div>
+							</div>
+							<p class="card-text mt-3 " style="font-size: 12px;">Due by <span>March 23,2024</span></p>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+
+
+			<div class="overview-atten-trend">
+				<div class="container">
+
+					<div class="container-fluid mt-4">
+						<div class="card-1 pt-3 d-flex justify-content-between" style="width:100%">
+							<h6 class="text-dark"><b>Attendance Trend</b></h6>
+							<div class="date">
+								<input type="date">
+							</div>
+
+						</div>
+						<!-- <canvas id="attendanceChart" width="!00%" height="100%"></canvas> -->
+						<canvas id="attendanceChart" style="width: 90%;height: 200px;"></canvas>
+					</div>
+
+					<!-- Bootstrap JS and Popper.js (required for Bootstrap) -->
+					<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+					<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+					<!-- Chart.js -->
+					<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+					<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+
+					<script>
+						// Sample data (you can replace this with your actual data)
+						var attendanceData = {
+							labels: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+							datasets: [{
+								label: 'Present',
+								backgroundColor: 'green',
+								borderColor: 'rgba(75, 192, 192, 1)',
+								borderWidth: 1,
+								data: [20, 18, 22, 25, 28, 23, 20, 24, 26, 30, 28, 22],
+							}, {
+								label: 'Absent',
+								backgroundColor: 'orange',
+								borderColor: 'rgba(255, 99, 132, 1)',
+								borderWidth: 1,
+								data: [5, 8, 3, 7, 10, 6, 4, 9, 7, 5, 6, 8],
+							}, {
+								label: 'Leave',
+								backgroundColor: 'yellow',
+								borderColor: 'rgba(255, 255, 0, 1)',
+								borderWidth: 1,
+								data: [2, 1, 3, 2, 1, 4, 2, 3, 1, 2, 1, 3],
+							}]
+						};
+
+						var ctx = document.getElementById('attendanceChart').getContext('2d');
+						var attendanceChart = new Chart(ctx, {
+							type: 'bar',
+							data: attendanceData,
+							options: {
+								scales: {
+									xAxes: [{
+										stacked: true,
+									}],
+									yAxes: [{
+										stacked: true,
+									}]
+								},
+								plugins: {
+									datalabels: {
+										color: 'white',
+										font: {
+											weight: 'bold'
+										},
+										formatter: function (value, context) {
+											return value !== 0 ? value : '';
+										}
+									}
+								}
+							}
+						});
+					</script>
+
+				</div>
+			</div>
+
+			<div class="overview-last">
+				<div class="row mb-3">
+
+					<div class="col-lg-4 mb-3">
+
+						<div class="overview-Open-req fixbox">
+							<h6 class="pt-3 ps-3"><b>Open Requests</b></h6>
+
+							<div>
+								<div class="d-flex justify-content-between overview-Open-req-list">
+									<div class="d-flex"><span class="mx-3  req-color-box"
+											style="background-color: #ea6759;"></span>
+										<p >Missed punches</p>
+									</div>
+									<div id="" class="pe-3 ">0</div>
+								</div>
+								<!--  -->
+								<div class="d-flex justify-content-between overview-Open-req-list">
+									<div class="d-flex"><span class="mx-3  req-color-box"
+											style="background-color: #00a28a;"></span>
+										<p >Time Relaxations</p>
+									</div>
+									<div id="" class="pe-3 ">0</div>
+								</div>
+								<!--  -->
+								<div class="d-flex justify-content-between overview-Open-req-list">
+									<div class="d-flex"><span class="mx-3  req-color-box"
+											style="background-color: #f7c46c;"></span>
+										<p >Comp Offs</p>
+									</div>
+									<div id="" class="pe-3 ">0</div>
+								</div>
+								<!--  -->
+								<div class="d-flex justify-content-between overview-Open-req-list">
+									<div class="d-flex"><span class="mx-3  req-color-box"
+											style="background-color: #0179a8;"></span>
+										<p >Leaves</p>
+									</div>
+									<div id="" class="pe-3 ">0</div>
+								</div>
+								<!--  -->
+								<div class="d-flex justify-content-between overview-Open-req-list">
+									<div class="d-flex"><span class="mx-3  req-color-box"
+											style="background-color: #b76ba3;"></span>
+										<p >Claims</p>
+									</div>
+									<div id="" class="pe-3 ">0</div>
+								</div>
+								<!--  -->
+								<div class="d-flex justify-content-between overview-Open-req-list">
+									<div class="d-flex"><span class="mx-3  req-color-box"
+											style="background-color: rgb(84, 84, 162);"></span>
+										<p >Helpdesk</p>
+									</div>
+									<div id="" class="pe-3 ">0</div>
+								</div>
+								<!--  -->
+								<div class="d-flex justify-content-between overview-Open-req-list">
+									<div class="d-flex"><span class="mx-3  req-color-box"
+											style="background-color: green;"></span>
+										<p >Workflows</p>
+									</div>
+									<div id="" class="pe-3 ">0</div>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="col-lg-8 mb-3" >
+						<div class="overview-up-events fixbox">
+							<!-- <h6 class="pt-3 ps-3"><b>Upcoming Events</b></h6> -->
+							<div class="card border-0" style="height: 324px;">
+								<div class="card-body">
+									<div class="row">
+										<div class="col-xl-8">
+											<h6 class="card-title fw-bold">Upcoming Events</h6>
+										</div>
+										<div class="col d-flex justify-content-end">
+											<a href="" class="text-decoration-none fw-light text-dark">Open Report »</a>
+										</div>
+									</div>
+									<div  id="">
+										<div class="d-flex justify-content-between align-items-center py-1">
+											<span class="fw-lighter"><i class="fa fa-square text-info me-2 mr-2"></i>Bonagiri's birthday (Hyderabad)</span> 
+											<span class="text-muted">Jan 19</span>
+										</div>
+
+										<div class="d-flex justify-content-between align-items-center py-1">
+											<span class="fw-lighter"><i class="fa fa-square text-info me-2 mr-2"></i>Oruganti's birthday (Hyderabad)</span> <span
+												class="text-muted">Feb 18</span>
+										</div>
+
+										<div class="d-flex justify-content-between align-items-center py-1">
+											<span class="fw-lighter"><i class="fa fa-square text-info me-2 mr-2"></i>Nakka's birthday (Hyderabad)</span> <span
+												class="text-muted">Feb 23</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<footer class="footer" style="font-size: 13px;">
+
+                <hr style="background-color: #bfbbbb;">
+                <div class="d-none d-md-flex justify-content-center mb-2 align-items-center">
+                    <a href="#" target="_blank" class="ms-2 me-2 small text-decoration-none text-dark">About Us</a> <i class="fa fa-angle-right text-dark"></i>
+                    <a href="#" target="_blank" class="ms-2 me-2 small text-decoration-none text-dark">Contact Us</a> <i class="fa fa-angle-right text-dark"></i>
+                    <a href="#" target="_blank" class="ms-2 me-2 small text-decoration-none text-dark">Privacy Policy</a> <i class="fa fa-angle-right text-dark"></i>
+                    <a href="#" target="_blank" class="ms-2 me-2 small text-decoration-none text-dark">Terms of Service</a> <i class="fa fa-angle-right text-dark"></i>
+                    <a href="#" target="_blank" class="ms-2 me-2 small text-decoration-none text-dark">Refunds &amp; Cancellations</a>
+                </div>
+
+				<div class="d-flex justify-content-center ">
+                    <ul class="list-inline mb-2">
+						<li class="small text-center">
+							<span>Licensed to:</span> <strong><span class="mr-2 _lblclientname">Levitica Technologies Private Limited</span></strong>
+						</li>
+						<li class="small  d-flex justify-content-center">
+							<span class="mr-2" id="">License valid till: <strong><span class="text-danger" id="">2024-03-23</span></strong></span>
+						</li>
+					</ul>
+                </div>
+				<div class="d-flex justify-content-center ">
+                  
+					<div class="copyright small"> © 2024 Runtime Software Private Limited</div>
+
+                </div>
+
+                
+
+
+            </footer>
+
+
+			
+
+
+
+
+			<!--------------------- design ends here -------------------------->
+		</div>
+	</div>
+	<!-- MAIN-CONTENT-END -->
+
+
+	<script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="./assets/js/script.js"></script>
+
+
+</body>
+
+</html>

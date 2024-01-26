@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+:root {
+	--main-white: #fff;
+	--main-primary: #000;
+	--main-black:#000;
+	--main-blue:#3d3f74;
+	--height-head:54.5px;
+	
+
+}
+.overview-timeline-cards{
+    margin-top: -50px;
+}
+.overview-timeline-cards .card{
+    border: 1px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.overview-atten-trend{
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    /* height: 150px; */
+
+}
+.overview-last{
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.req-color-box{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    margin-top: 6px;
+    border-radius: 2px;
+}
+.overview-Open-req-list{
+    color: #6c757d;
+}
+.overview-Open-req-list:hover{
+    color: #000000;
+}
+
+
